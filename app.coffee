@@ -1,6 +1,4 @@
 express = require('express')
-http = require('http')
-https = require('https')
 fs = require('fs')
 bodyParser = require('body-parser')
 path = require('path')
@@ -19,4 +17,4 @@ routes = require('./routes')(app, os)
 app.get "/", routes.home
 app.get "/register", routes.register
 
-http.createServer(app).listen 3000
+app.listen(3000, "::")
