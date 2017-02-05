@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fysh.in</title>
+  <link href="/css/main.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+<h1>Fysh.in</h1>
+<header>
+  <nav>
+    <ul>
+      <li><a href="/">about</a></li>
+      <li><a href="/register">register</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  #{raw body}
+</main>
+<footer>
+  <span id=info>up #{Math.floor(uptime / 60 / 60 * 100) / 100} hours</span>
+  <a href='https://xmpp.net/result.php?domain=fysh.in&amp;type=client' id=xmpp-score>
+    <img src='https://xmpp.net/badge.php?domain=fysh.in' alt='xmpp.net score' />
+  </a>
+</footer>
+</body>
+</html>

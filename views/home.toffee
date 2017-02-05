@@ -1,0 +1,18 @@
+<section id=intro>
+  <p>Fysh.in operates a free and public XMPP service. It is open for anyone to use, please do not abuse the service.</p>
+  <p>If you have an queries, or wish to report abuse, you can contact us over email or XMPP at <a href="mailto:admin@fysh.in">admin@fysh.in</a></p>
+</section>
+<section id=latest>
+  <h2>Latest updates:</h2>
+  <ul>
+    <li><strong>2014-11-30</strong>: Migrated over to a new host</li>
+    <li><strong>2017-01-23</strong>: Disabled in-band registration due to abuse</li>
+    <li><strong>2017-01-29</strong>: Migrated over to a new host</li>
+  </ul>
+</section>
+<section id=upcoming>
+  <h2>Upcoming maintenance:</h2>
+  <ul>
+    <li>none</li>
+  </ul>
+</section>

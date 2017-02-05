@@ -1,0 +1,68 @@
+@import url(//fonts.googleapis.com/css?family=Unna);
+
+html {
+  background: url('/img/bg.png');
+  padding: 10px;
+}
+
+h1, h2, h3 {
+  font-family: 'Unna', serif;
+  font-variant: small-caps;
+  margin: 0;
+}
+
+h1, header, nav, ul {
+  display: inline-block;
+}
+
+header {
+  margin-left: 25px;
+}
+
+nav > ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 0 0 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #888;
+  -webkit-transition: color 0.2s linear;
+}
+
+a:hover {
+  color: #333;
+}
+
+section {
+  width: 70%;
+  margin: 0 0 30px;
+}
+
+#info {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+}
+
+#xmpp-score {
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 5px 0;
+}
+
+@media screen and (max-width: 760px) {
+  section {
+    width: 100%;
+  }
+}
