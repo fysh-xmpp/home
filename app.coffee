@@ -1,4 +1,5 @@
 express = require('express')
+compression = require('compression')
 fs = require('fs')
 bodyParser = require('body-parser')
 path = require('path')
@@ -11,6 +12,7 @@ app.set "view engine", "toffee"
 app.use bodyParser.urlencoded({ extended: true })
 app.use bodyParser.json()
 app.use express.static(path.join(__dirname, "public"))
+app.use compression()
 
 routes = require('./routes')(app, os)
 
