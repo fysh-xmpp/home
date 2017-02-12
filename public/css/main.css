@@ -1,4 +1,9 @@
-@import url(//fonts.googleapis.com/css?family=Unna);
+@font-face {
+  font-family: 'Unna';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/unna.ttf') format('truetype');
+}
 
 html {
   background: url('/img/bg.png');
