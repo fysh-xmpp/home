@@ -1,17 +1,10 @@
-@font-face {
-  font-family: 'Unna';
-  font-style: normal;
-  font-weight: 400;
-  src: url('/fonts/unna.ttf') format('truetype');
-}
-
 html {
   background: url('/img/bg.png');
   padding: 10px;
 }
 
 h1, h2, h3 {
-  font-family: 'Unna', serif;
+  font-family: serif;
   font-variant: small-caps;
   margin: 0;
 }
