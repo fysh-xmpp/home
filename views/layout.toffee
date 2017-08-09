@@ -20,7 +20,7 @@
 </main>
 <footer>
   <span id=info>up #{Math.floor(uptime / 60 / 60 * 100) / 100} hours</span>
-  <a href='https://check.messaging.one/result.php?domain=fysh.in&amp;type=client'>
+  <a href='https://check.messaging.one/result.php?domain=fysh.in&amp;type=client' id=xmpp-score>
     <img src='https://check.messaging.one/badge.php?domain=fysh.in' alt='IM observatory score' />
   </a>
 </footer>
