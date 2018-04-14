@@ -8,6 +8,7 @@
     <li><strong>2014-11-30</strong>: Migrated over to a new host</li>
     <li><strong>2017-01-23</strong>: Disabled in-band registration due to abuse</li>
     <li><strong>2017-01-29</strong>: Migrated over to a new host</li>
+    <li><strong>2018-04-14</strong>: Prosody 0.10, Enabled DNSSEC, SRV records over TLS</li>
   </ul>
 </section>
 <section id=upcoming>
