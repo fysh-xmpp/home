@@ -1,5 +1,3 @@
-@import url(//fonts.googleapis.com/css?family=Unna);
-
 html, body {
   margin: 0;
   padding: 0;
@@ -10,7 +8,7 @@ html {
 }
 
 h1, h2, h3 {
-  font-family: 'Unna', serif;
+  font-family: serif;
   font-variant: small-caps;
   margin: 0;
 }
