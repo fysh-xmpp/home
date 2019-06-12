@@ -6,23 +6,34 @@
   <link href="/css/main.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-<h1>Fysh.in</h1>
-<header>
-  <nav>
-    <ul>
-      <li><a href="/">about</a></li>
-      <li><a href="/register">register</a></li>
-    </ul>
-  </nav>
-</header>
-<main>
-  #{raw body}
-</main>
-<footer>
-  <span id=info>up #{Math.floor(uptime / 60 / 60 * 100) / 100} hours</span>
-  <a href='https://check.messaging.one/result.php?domain=fysh.in&amp;type=client' id=xmpp-score>
-    <img src='https://check.messaging.one/badge.php?domain=fysh.in' alt='IM observatory score' />
-  </a>
-</footer>
+<div id="notification">
+  <p>fysh.in will be shutdown on 1st July 2019</p>
+  <p class="small">
+    It is with a heavy heart that I have taken the decision to shutdown fysh.in, unfortunately all good things must come to an end. I have run this service out of my own pocket since it was born in February 2014. It has taken both time and money to keep the service running since then, both of which I can no longer commit.
+  </p>
+  <p class="small">
+    My email will still be alive for the foreseeable future, feel free to email on <a href="mailto:admin@fysh.in">admin@fysh.in</a>.
+  </p>
+</div>
+<div id="site">
+  <header>
+    <h1>Fysh.in</h1>
+    <nav>
+      <ul>
+        <li><a href="/">about</a></li>
+        <li><a href="/register">register</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    #{raw body}
+  </main>
+  <footer>
+    <span id=info>up #{Math.floor(uptime / 60 / 60 * 100) / 100} hours</span>
+    <a href='https://xmpp.net/result.php?domain=fysh.in&amp;type=client' id=xmpp-score>
+      <img src='https://xmpp.net/badge.php?domain=fysh.in' alt='xmpp.net score' />
+    </a>
+  </footer>
+</div>
 </body>
 </html>
